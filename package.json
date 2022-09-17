@@ -1,0 +1,27 @@
+{
+  "name": "jsutil-docs",
+  "version": "1.0.0",
+  "description": "#### Description jsutil文档",
+  "main": "index.js",
+  "scripts": {
+    "build": "vuepress build",
+    "build-vuepress": "vuepress build",
+    "dev": "vuepress dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/cwl_ch/jsutil-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "^4.0.19",
+    "showdown": "^2.1.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.51",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.51",
+    "@vuepress/theme-default": "^2.0.0-beta.50",
+    "vuepress": "^2.0.0-beta.50"
+  }
+}
