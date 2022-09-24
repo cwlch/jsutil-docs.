@@ -2,11 +2,11 @@
 
 
 ## CDN快速开始
-+ 可通过 jsutil.gykeji.com 获取到最新版本的资源，在页面上引入js即可开始使用。
++ [获取最新jsutil文件](https://github.com/cwlch/jsutil/blob/v2.0.0/lib/jsutil-umd.js)
 + 会暴露一个“ **jsutil** ”全局变量
 
 ```html
-<script src="http://jsutil.gykeji.com/lib/jsutil-umd.js"></script>
+<script src="jsutil-umd.js"></script>
 <script>
 	jsutil._IsName('你的名字'); //true
 	jsutil._IsName('你的名字12'); //false

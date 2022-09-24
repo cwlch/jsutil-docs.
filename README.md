@@ -50,7 +50,7 @@ Jsutil一直在积累的路上，如果你在Jsutil库里没找到你想要的�
 
 
 ## CDN快速开始
-+ [获取最新jsutil文件](https://github.com/cwlch/jsutil/blob/v1.0.6/lib/jsUtlis-umd.js)
++ [获取最新jsutil文件](https://github.com/cwlch/jsutil/blob/v2.0.0/lib/jsutil-umd.js)
 + 会暴露一个“ **jsutil** ”全局变量
 
 ```html
