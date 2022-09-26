@@ -2,7 +2,7 @@
  * @Author: ch cwl_ch@163.com
  * @Date: 2022-09-07 06:23:43
  * @LastEditors: ch
- * @LastEditTime: 2022-09-24 10:21:07
+ * @LastEditTime: 2022-09-24 10:31:22
  * @Description: file content
  */
 import { defaultTheme } from '@vuepress/theme-default'
@@ -10,6 +10,7 @@ import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
 export default {
   head: [
+    ['link', { href: '/favicon.ico' }],
     ['meta', { name: 'keywords', content: 'jsutil工具类,js工具类,javascript工具类,jsutil函数库,js基础类,jsTool类,时间格式化,校验手机号,校验邮箱格式,校验身份证号,校验金额格式,金额格式化,校验座机号,校验为空,校验姓名格式'}],
     ['script', {}, `
         var _hmt = _hmt || [];
